@@ -1,0 +1,88 @@
+/* landing page */
+.top, .middle, .bottom{
+    height: 200px;
+    display: flex;
+}
+
+.bio, .photo, .educ, .hobbies, .contact{
+    width:450px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.blank{
+    width:  450px;
+    height: 200px;
+}
+
+.bio:hover{
+   
+    background-color: rgb(48, 42, 42);
+}
+.bio{
+    background-color: rgb(192, 186, 186);
+}
+
+.photo:hover{
+    background-color: rgb(5, 109, 36);
+}
+.photo{
+    background-color: rgb(11, 101, 236);
+}
+
+.educ:hover{
+    background-color: rgb(151, 140, 36);
+}
+.educ{
+    background-color: rgb(42, 136, 173);
+}
+
+.hobbies:hover{
+    background-color: rgb(209, 65, 29);
+}
+.hobbies{
+    background-color: rgb(11, 191, 236);
+}
+
+.contact:hover{
+    background-color: rgb(250, 7, 7);
+}
+.contact{
+    background-color: rgb(143, 103, 107);
+}
+
+/* profile page */
+.profile, header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 207, 164);
+}
+
+a footer{
+    color: rgb(255, 255, 255);
+}
+
+.profile img{
+    border-radius: 15px;
+}
+
+/* hobbies page */
+.hobbs{
+    display: flex;
+}
+
+.hobbs-1, .hobbs-2, .hobbs-3{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
